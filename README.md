@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 음악플레이어 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 목표: 음악플레이어 만들기
+- 실제 노래 재생을 제외한 음악플레이어 UI 만들기
 
-## Available Scripts
+<br/><br/>
 
-In the project directory, you can run:
+## 설치, 환경설정 및 실행방법
 
-### `npm start`
+```
+1. git clone https://github.com/w00jinkim/community_TS_NEXT.git
+2. cd [folder name]
+3. cd client
+4. npm install
+5. npm start (리액트가 켜지길 기다립니다.)
+6. ctrl + c (터미널)
+7. npm build
+8. 빌드되는걸 기다립니다.
+9. cd ..
+10. cd server
+11. npm install
+12. npm start (노드가 켜지길 기다립니다.)
+13. ctrl + c (터미널)
+14. cd ..
+15. 경로가 최상위 디렉토리인지 확인
+16. 최상위 디렉토리에서 npm install
+17. 같은 디렉토리에서 npm start!
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 개발 기간
 
-### `npm test`
+- 2023-05-22 ~ 2023-05-23
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TECH-STACKS
 
-### `npm run build`
+### Front-End
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=white&style=for-the-badge" />
+<img src="https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=white&style=for-the-badge" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=TailwindCSS&logoColor=white&style=for-the-badge" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 배포/ 데모영상
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- <a href="https://www.youtube.com/watch?v=-WJwldNT0ZE">Youtube Link</a>
 
-### `npm run eject`
+<br/><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 참여자
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+|                                                                Front-end                                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                 김우진                                                                  |
+|               <img width="95px" height="95px" src="https://avatars.githubusercontent.com/u/111094669?v=4" alt="avatar"/>                |
+| [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>](https://github.com/w00jinkim) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/><br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 구현사항<br/>
 
-## Learn More
+1. - [x] 노래 제목 및 가수 리스트 디스플레이<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. - [x] 현재 재생중인 노래의 정보(제목, 가수, 앨범, 가사 등등)<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. - [x] 노래 재생, 일시정지, 다음곡, 이전곡, 프로그레스바 등 재생관련 제어 기능<br/>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. - [x] 타임스탬프별 가사 표시 및 현재곡 표시<br/>
